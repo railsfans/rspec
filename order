@@ -1,0 +1,3 @@
+rspec spec/greet_rspc.rb
+
+cucumber features/greet_say_hello.feature
