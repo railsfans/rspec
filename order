@@ -1,3 +1,9 @@
 rspec spec/greet_rspc.rb
 
 cucumber features/greet_say_hello.feature
+
+cucumber features/codebreaker_start_game.feature
+
+rspec spec/codebreaker/game_spec.rb --format doc
+
+rspec spec/ --color --format doc
